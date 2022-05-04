@@ -5,13 +5,12 @@ function obtenerMayor(x, y) {
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
-  int x,y; 
-  if (x>y){
+  if(x > y) {
     return x;
   }
-  return y;
-  
+  return y;  
 }
+
 
 function mayoriaDeEdad(edad) {
   //Determinar si la persona según su edad puede ingresar a un evento.
@@ -119,7 +118,7 @@ function fizzBuzz(numero) {
   // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
   // De lo contrario, devuelve el numero
   if (numero%3==0){
-    return "fizz":
+    return "fizz";
   }else if (numero%5==0){
     return "buzz";
   }else if (numero%3==0 && numero%5==0){
@@ -164,7 +163,7 @@ function esPrimo(numero) {
   }
   return true;
 }
-}
+
 
 function esVerdadero(valor){
   //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
@@ -212,7 +211,6 @@ function doWhile(numero) {
   while(i < 8);
   return a;
 }
-
 
 
 // No modificar nada debajo de esta línea
