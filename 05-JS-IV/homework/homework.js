@@ -132,7 +132,7 @@ function pasarUsuarioAPremium(usuarios) {
   for (var i=0;i<usuarios.length;i++){
     usuarios[i].esPremium=true;
   }
-  return usuario;
+  return usuarios;
 }
 
 function sumarLikesDeUsuario(usuario) {
@@ -144,7 +144,7 @@ function sumarLikesDeUsuario(usuario) {
   // Tu código:
   var resultado;
   for ( var i=0;i<usuario.posts.length;i++){
-    resultado= resultado + usuario.post[i].likes;
+    resultado= resultado + usuario.posts[i].likes;
   }
   return resultado;
   }
